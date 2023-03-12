@@ -35,7 +35,7 @@ drop table if exists personas;
 
 -- insertando elementos a las tablas
 insert into usuario(id_usuario,nombre,edad) values (001,'Luis Arturo Vazquez Rosales',19);
-insert into usuario(id_usuario,nombre,edad) values (026,'Shandi Ximena Rodriguez Itrubide',20);
+insert into usuario(id_usuario,nombre,edad) values (026,'Juanito Perez Traga',20);
 insert into usuario(id_usuario,nombre,edad) values (023,'Jose Alejandro Vazquez Rosales',26);
 insert into usuario(id_usuario,nombre,edad) values (029,'Delfino Vazquez Lira',59);
 -- consulta de datos de la tabla
@@ -80,7 +80,7 @@ create table empleado(
 show tables;
 
 insert into empleado values(0123,'Juan Perez','Limpieza');
-insert into empleado values(0156,'Shandi Iturbide','Caja');
+insert into empleado values(0156,'Tarza Lopez','Caja');
 insert into empleado values(0187,'Arturo Vazquez','Cocina');
 insert into empleado values(0125,'Antonio Zamgay','Chupa penes');
 

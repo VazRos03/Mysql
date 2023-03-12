@@ -13,7 +13,7 @@ desc libros;
 
 -- insercion de datos
 
-insert into libros values (0989,'Shandi Iturbide','La rosa de pandi', 156.78, 156);
+insert into libros values (0989,'Tarza Lopez','La rosa de pandi', 156.78, 156);
 insert into libros values (0456,'Luis yuyots','el camino al pueblo', 179.78, 90);
 insert into libros values (0890,'Sebastian Mendez','La botella de licor', 256.89, 567);
 insert into libros values (0789,'Come Galletas','La galleta perdida', 345.78, 200);
