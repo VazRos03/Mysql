@@ -15,7 +15,7 @@ insert into alumnos(nombre,edad,grupo) values('Maluma Wilson',13,'3C');
 insert into alumnos(nombre,edad,grupo) values('Yael Rubio',19,'2B'); 
 
 #count
-select count(*) from alumnos where nombre <> 'Ximena Perez'and ''; -- cuenta todos los registros que hay en la tabla 
+select count(*) from alumnos where nombre <> 'Ximena Perez'and nombre <> 'Maluma Wilson'; -- cuenta todos los registros que hay en la tabla 
 
 -- ordenando la tabla alumnos
 select * from alumnos order by edad;
