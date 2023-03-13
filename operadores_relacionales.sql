@@ -34,3 +34,30 @@ select * from libros where cantidad >=200; #imprime los resgistros que cumplen c
 select * from libros;
 
 delete from libros where cantidad >= 200; #eliminaremos el registro que cumpla con una cantidad de 200
+
+
+-- IN Y BETWEEN
+use administracion;
+
+create table estudiantes(
+	id int unsigned not null auto_increment primary key,
+    nombre varchar(50) not null,
+    edad tinyint unsigned not null
+);
+
+insert into estudiantes(nombre,edad) values('Luis',14);
+insert into estudiantes(nombre,edad) values('Thiego',17);
+insert into estudiantes(nombre,edad) values('Marta',19);
+insert into estudiantes(nombre,edad) values('Lupita',13);
+insert into estudiantes(nombre,edad) values('Criss',18);
+insert into estudiantes(nombre,edad) values('Alfaro',16);
+
+select * from estudiantes;
+
+#operador in
+select * from estudiantes where nombre in('Criss','Luis','Alfaro');
+
+select nombre from estudiantes where edad in(18) and id>1;
+
+# operador between
+select * from estudiantes where nombre between'Thiego' and 'Criss';
